@@ -220,7 +220,7 @@ namespace CamadaDados
                 SqlCon.ConnectionString = Conexao.Cs;
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
-                SqlCmd.CommandText = "splistar_artigo";
+                SqlCmd.CommandText = "splistar_artigo"; //"splistar_funcionario";
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
                 SqlDataAdapter SqlDadp = new SqlDataAdapter(SqlCmd);
